@@ -43,6 +43,7 @@ code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .88em;
 [dir="rtl"] { font-family: -apple-system, "SF Arabic", "Geeza Pro", "Noto Naskh Arabic", Tahoma, sans-serif;
   font-size: 1.06rem; line-height: 1.85; }
 footer { color: var(--muted); font-size: .9rem; border-top: 1px solid var(--rule); padding: 18px 0 34px; }
+footer p.marks { margin: 8px 0 0; font-size: .8rem; line-height: 1.5; }
 .card-links { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin: 10px 0 0; }
 .card-links a { display: block; background: var(--panel); border: 1px solid var(--rule); border-radius: 14px;
   padding: 16px 18px; text-decoration: none; color: var(--ink); }
@@ -67,7 +68,7 @@ footer { color: var(--muted); font-size: .9rem; border-top: 1px solid var(--rule
 <h3>Prayer times</h3>
 <p>Fawz calculates prayer times on your device. Allow location, or choose your city manually in Settings. You can change the calculation method in Settings.</p>
 <h3>Adhan notifications</h3>
-<p>Choose a sound for each prayer in Settings &gt; Adhan. If you do not hear the prayer alert, check that notifications are allowed for Fawz, that your phone is not in silent mode, and that no Focus mode is blocking Fawz. The Adhan health check in the same page shows what iOS has scheduled.</p>
+<p>Choose a sound for each prayer in Settings &gt; “Will I hear the adhan?”. If you do not hear the prayer alert, check that notifications are allowed for Fawz, that your phone is not in silent mode, and that no Focus mode is blocking Fawz. The Adhan health check in the same page shows what iOS has scheduled.</p>
 <h3>Your data</h3>
 <p>Fawz has no account. Records stay on your device by default. With “Sync records with iCloud” on, which it is only if you turn it on, a copy of your records is kept in your own private iCloud so that your iPhone and iPad share them; days marked “Excused” are never synced. With “Sync settings with iCloud” on, as it is unless you turn it off, your settings (never your records) are kept in your own iCloud so that your iPhone and iPad match. Read the <a href="../privacy/">privacy policy</a>.</p>
 </section>
@@ -77,7 +78,7 @@ footer { color: var(--muted); font-size: .9rem; border-top: 1px solid var(--rule
 <h3>مواقيت الصلاة</h3>
 <p>يحسب فوز مواقيت الصلاة على جهازك. اسمح بالوصول إلى الموقع أو اختر مدينتك يدويًا من الإعدادات، ويمكنك تغيير طريقة الحساب من الإعدادات.</p>
 <h3>إشعارات الأذان</h3>
-<p>اختر صوت كل صلاة من «الإعدادات» ثم «الأذان». إن لم تسمع تنبيه الصلاة فتأكد من السماح بإشعارات فوز، ومن أن الهاتف ليس في الوضع الصامت، وأن وضع التركيز لا يحجب فوز. ويعرض «فحص سلامة الأذان» في الصفحة نفسها ما جدولته iOS.</p>
+<p>اختر صوت كل صلاة من «الإعدادات» ثم «هل سأسمع الأذان؟». إن لم تسمع تنبيه الصلاة فتأكد من السماح بإشعارات فوز، ومن أن الهاتف ليس في الوضع الصامت، وأن وضع التركيز لا يحجب فوز. ويعرض «فحص سلامة الأذان» في الصفحة نفسها ما جدولته iOS.</p>
 <h3>بياناتك</h3>
 <p>لا يتطلب فوز حسابًا، وتبقى السجلات على جهازك بصورة افتراضية. ومع تفعيل «مزامنة السجلات مع iCloud»، وهو متوقف ما لم تفعّله، تُحفظ نسخة من سجلاتك في iCloud الخاص بك لتشترك فيها أجهزتك من iPhone وiPad؛ أما الأيام المسجّلة «بعذر» فلا تُزامَن أبدًا. ومع تفعيل «مزامنة الإعدادات مع iCloud»، وهو مفعّل ما لم توقفه، تُحفظ إعداداتك (دون سجلاتك) في iCloud الخاص بك لتتطابق أجهزتك من iPhone وiPad. اطّلع على <a href="../privacy/">سياسة الخصوصية</a>.</p>
 </section>
@@ -85,6 +86,8 @@ footer { color: var(--muted); font-size: .9rem; border-top: 1px solid var(--rule
 </div></main>
 <footer><div class="wrap">
 Fawz · Contact: <a href="mailto:wail1@me.com">wail1@me.com</a>
+<p class="marks" lang="en" dir="ltr">iCloud, iPad and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries and regions. IOS is a trademark or registered trademark of Cisco in the U.S. and other countries.</p>
+<p class="marks" lang="ar" dir="rtl">iCloud وiPad وiPhone علامات تجارية لشركة Apple Inc.، مسجّلة في الولايات المتحدة وبلدان ومناطق أخرى. وIOS علامة تجارية أو علامة تجارية مسجّلة لشركة Cisco في الولايات المتحدة وبلدان أخرى.</p>
 </div></footer>
 </body>
 </html>
